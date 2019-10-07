@@ -11,13 +11,13 @@ class TestUser(unittest.TestCase):
         unittest.TestCase: helps in creating test cases
     '''
 
-    # def test__init__(self):
-    #     '''
-    #     Test to if check the initialization/creation of user instances is properly done
-    #     '''
-    #     self.assertEqual.new_user.first_name, 'sam'
-    #     self.assertEqual.new_user.last_name, 'wendo'
-    #     self.assertEqual.new_user.password, 'pswd100'
+    def test__init__(self):
+         '''
+         Test to if check the initialization/creation of user instances is properly done
+         '''
+        # self.assertEqual.new_user.first_name, 'sam'
+        # self.assertEqual.new_user.last_name, 'wendo'
+        # self.assertEqual.new_user.password, 'pswd100'
 
     def test_save_user(self):
         '''
