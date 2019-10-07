@@ -37,7 +37,11 @@ As a user I would like to:
    
     $ python3.6 test_locker.py 
 
+## Technologies Used
+python3.6
 
+## Licence
+MIT &copy; (c) 2019 [SAM WENDO]
 
 
 
