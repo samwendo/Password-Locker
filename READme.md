@@ -31,3 +31,33 @@ As a user I would like to:
 * To run the Application, in your terminal
   $ chmod +x run.py
   $ ./run.py
+
+## TESTING APLICATION
+* To run the application for the class file:
+   
+    $ python3.6 test_locker.py 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
