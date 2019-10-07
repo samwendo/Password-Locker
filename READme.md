@@ -41,7 +41,7 @@ As a user I would like to:
 python3.6
 
 ## Licence
-MIT &copy; (c) 2019 [SAM WENDO]
+MIT &copy;2019 [SAM WENDO]
 
 
 
