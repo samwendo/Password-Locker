@@ -4,7 +4,7 @@ import string
 
 global users_list
 
-class User:
+class  User:
     '''
     class to create user accounts and save their information
     '''
