@@ -28,3 +28,6 @@ As a user I would like to:
         $ git clone https://github.com/samwendo/Password-Locker.git
         $ cd password
 ## RUN THE APPLICATION
+* To run the Application, in your terminal
+  $ chmod +x run.py
+  $ cd password
