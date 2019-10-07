@@ -6,7 +6,7 @@ from locker import User, Credential
 
 class TestUser(unittest.TestCase):
     '''
-    Test class that defines test cases for the user class behaviours.
+    Test class that defines test cases for the user class behavior's.
     Args:
         unittest.TestCase: helps in creating test cases
     '''
@@ -15,15 +15,15 @@ class TestUser(unittest.TestCase):
          '''
          Test to if check the initialization/creation of user instances is properly done
          '''
-        # self.assertEqual.new_user.first_name, 'sam'
-        # self.assertEqual.new_user.last_name, 'wendo'
-        # self.assertEqual.new_user.password, 'pswd100'
+        self.assertEqual.new_user.first_name,'sam'
+        self.assertEqual.new_user.last_name, 'wendo'
+        self.assertEqual.new_user.password, 'pswd100'
 
     def test_save_user(self):
         '''
         Test to check if the new users info is saved into the users list
         '''
-        # self.new_user.save_user()
+        self.new_user.save_user()
         self.assertEqual(len(User.users_list), 1)
 
 
