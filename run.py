@@ -1,4 +1,7 @@
 #! /usr/bin/env python3.6
+
+from locker import User, Credential
+
 def verify_user(first_name, password):
     '''
     Function that verifies the existence of the user before creating credentials
@@ -62,7 +65,7 @@ def main():
             first_name = input('Enter your first name - ').strip()
             last_name = input('Enter your last name - ').strip()
             password = input('Enter your password - ').strip()
-            save_user(create_user(first_name, last_name, password))
+            # self=save_user(create_user(first_name, last_name, password))
             print(" ")
             print(f'New Account Created for: {first_name} {last_name} using password: {password}')
         elif short_code == 'li':
