@@ -30,4 +30,4 @@ As a user I would like to:
 ## RUN THE APPLICATION
 * To run the Application, in your terminal
   $ chmod +x run.py
-  $ cd password
+  $ ./run.py
