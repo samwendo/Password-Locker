@@ -1,6 +1,7 @@
 #! /usr/bin/env python3.6
-
-from  locker import User, Credential
+import pyperclip
+import locker
+from locker import User, Credential
 
 def verify_user(first_name, password):
     '''
@@ -65,7 +66,7 @@ def main():
             first_name = input('Enter your first name - ').strip()
             last_name = input('Enter your last name - ').strip()
             password = input('Enter your password - ').strip()
-            # self=save_user(create_user(first_name, last_name, password))
+            # save_user(create_user(first_name, last_name, password))
             print(" ")
             print(f'New Account Created for: {first_name} {last_name} using password: {password}')
         elif short_code == 'li':
